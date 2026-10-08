@@ -1,0 +1,30 @@
+
+.Full{
+    display: grid;
+    grid-gap: 20px;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+   
+    grid-template-areas:
+    'h h h h'
+    'b b b b'
+    'b b b b'
+    'f f f f';
+
+}
+
+
+.head{
+    grid-area: h;
+    background-color: aquamarine;
+}
+.body{
+    grid-area: b;
+    background-color: rgb(43, 43, 88);
+}
+.foot{
+    grid-area: f;
+    background-color: rgb(206, 128, 128);
+}

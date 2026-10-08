@@ -1,0 +1,18 @@
+.Full_Window{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:200px 200px 200px ;
+    gap: 1em;
+    grid-template-areas: 
+    "box-1 box-2 box-2 box-3"
+    "box-1 box-4 box-4 box-6";
+}
+.item{
+    background-color: rgb(56, 61, 206);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+}

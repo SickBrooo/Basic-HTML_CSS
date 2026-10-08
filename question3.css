@@ -1,0 +1,98 @@
+.Full{
+    height: 94vh;
+    width: 98%;
+    background-color:#EBEBEB ;
+    border-radius: 20px;
+    padding: 20px;
+}
+.white{
+    background-color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.nav >div:first-child{
+    margin-right: auto;
+}
+
+.nav >div:nth-child(7){
+    margin-left: auto;
+
+}
+.dash{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+.home{
+    color: #C1CDFF;
+}
+.logo{
+    background-color:#536FFE ;
+    padding: 15px;
+    border-radius: 30px; 
+}
+.logo2{
+    background-color:#536FFE ;
+    padding: 15px;
+    border-radius: 30px; 
+    width:2%;
+}
+.hi{
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 45% 28% 28%;
+    grid-template-rows: 100px 100px 100px ;
+    /* justify-content: space-between; */
+    grid-template-areas: 
+    'a b c'
+    'a d c';
+    gap: 1em;
+    margin-top: 30px;
+}
+.in1{
+    grid-area: a;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+.in2{
+    grid-area: b;
+    border-radius: 10px;
+     padding: 10px;
+}
+.in3{
+    grid-area: d;
+    border-radius: 10px;
+     padding: 10px;
+}
+.in4{
+    grid-area: c;
+    border-radius: 10px;
+     padding: 10px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 400px;
+    gap: 1em;
+}
+.canteen{
+    padding: 20px;
+    border-radius: 20px;
+}
+.Valorant{
+    padding: 20px;
+    border-radius: 20px;
+}
+.Prompt{
+    padding: 20px;
+    border-radius: 20px;
+}

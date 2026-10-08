@@ -1,0 +1,17 @@
+.Flex_container{
+  display: flex;
+  border: 3px solid black;
+  min-height: 750px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(135, 62, 192);
+    align-content: center;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}

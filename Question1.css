@@ -1,0 +1,125 @@
+.Full{
+    height: 100%;
+}
+.head{
+    display: flex;
+    height:5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+.body{
+    height: 80vh;
+    background-color: azure;
+
+}
+.Inner{
+    background-color: orange;
+    height: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.Foot{
+  background-color: black;
+  height: 10vh;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  
+}
+.grd{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 120px 500px;
+    gap: 1em;
+    padding: 30px;
+     justify-content: center;
+    
+    grid-template-areas: 
+    'h h'
+    'b1 b2';
+}
+.box1{
+ grid-area: h;
+ background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.box2{
+  grid-area: b1;
+   background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: xx-large;
+  
+}
+.box3{
+  grid-area: b2;
+ background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: xx-large;
+}
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.grd2{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 170px 170px;
+    margin-top: 10px;
+    grid-template-areas: 
+    'a b'
+    'c d';
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: center;
+   
+}
+.in1{
+    grid-area: a;
+     background-color: #f1e7be;
+     padding: 8px;
+      border-radius: 8px;
+      
+}
+.in2{
+    grid-area: b; 
+     background-color: #f1e7be;
+     padding: 8px;
+      border-radius: 8px;
+}
+.in3{
+     grid-area: c;
+      background-color: #f1e7be;
+      padding: 8px;
+       border-radius: 8px;
+}
+.in4{
+     grid-area: d;
+      background-color: #f1e7be;
+      padding: 8px;
+       border-radius: 8px;
+}
+.input{
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.area{
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+.inside{
+    padding: 5px;
+     width: 100%;
+}
